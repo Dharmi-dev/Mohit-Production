@@ -92,16 +92,19 @@ nav{
 
 .Hero{
   display: flex;
-  flex-direction: column;
   justify-content: center;
   margin: 5rem auto;
 }
 
 .Hero .content-01{
-  width: 55%;
+  width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 2rem;
+  text-align: center;
+  margin-top: 5rem;
 
   font-size: 2rem;
 }
@@ -109,16 +112,95 @@ nav{
 .Hero h2{
   font-size: 2.7rem;
   color: var(--pri-color);
+  font-weight: 900;
 }
 
 .Hero h4{
-  font-size: 1.3rem;
-
+  font-size: 1.2rem;
+  font-weight: 200;
 }
 
 .content-rightSpace{
-  width: 7rem;
+  width: 19rem;
 }
 
+.special-Btn{
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20rem;
+  padding: 25px 16px;
+  border-radius: 50px;
+  border: none;
+  background:var(--secondary-color);
+  margin-top: 5rem;
+  box-shadow: 0 0 20px var(--secondary-color);
+}
+
+.bookCall{
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+/* ----slide-02 --------- */
+
+
+.slide-02{
+  display: flex;
+  margin: 10rem auto;
+  gap: 5rem;
+}
+
+.user-Detail{
+  height: 5rem;
+  width: 17rem;
+  background: var(--soft-black);
+  color:var(--secondary-color);
+  padding: 20px 40px;
+  border-radius: 10px;
+  flex: 1 1 100px;
+  box-shadow: 0 0 20px var(--soft-black);
+}
+
+.left-slide-02{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  flex-basis: 50%;
+
+}
+
+.right-slide-02{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+  gap: 1rem;
+}
+.right-slide-02 h3{
+  color: var(--pri-color);
+  font-size: 2.5rem;
+}
+
+.right-slide-02 p{
+  font-size: 1.2rem;
+  line-height: 2rem;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+.right-slide-02 img{
+  height: 20px;
+  width: 20px;
+
+}
+
+.right-slide-02 button{
+  background: var(--pri-color);
+  color: var(--secondary-color);
+  box-shadow: 0 0 20px var(--pri-color);
+  margin-top: 2rem;
+}
 
 
